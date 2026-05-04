@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Practice_Suite">
+  
+  <test name="CaseOne">
+  <packages>
+  <package name="TestNG"></package>
+  </packages>
+  <classes>
+      <class name="TestNG.Case_1">
+      <methods>
+      	<include name="day1"/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  
+  <test name="CaseTwo">
+  <classes>
+  <class name="TestNG.Case_2">
+  <methods>
+  	<exclude name="Day4"/>
+  </methods>
+  </class>
+  </classes>
+  </test>
+</suite>
