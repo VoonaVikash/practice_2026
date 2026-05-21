@@ -8,6 +8,6 @@ public class LocatorsPractice {
 		DriverInvoking di = new DriverInvoking();
 		WebDriver driver = di.callDriver("https://rahulshettyacademy.com/locatorspractice/");
 		System.out.println(driver.getTitle());
-		driver.close();
+		driver.quit();
 	}
 }

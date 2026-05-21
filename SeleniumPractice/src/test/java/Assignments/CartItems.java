@@ -24,8 +24,11 @@ public class CartItems {
 //		System.out.println(userPass[6].length()+" "+userPass[6].substring(0, userPass[6].length()-1));
 		driver.findElement(By.id("password")).sendKeys(userPass[6].substring(0, userPass[6].length() - 1));
 		driver.findElement(By.xpath("//input[@value=\"user\"]")).click();
+		
+		//Explicit wait
 		WebDriverWait ew = new WebDriverWait(driver, Duration.ofSeconds(3));
 		ew.until(ExpectedConditions.visibilityOfElementLocated(By.id("okayBtn")));
+		
 		driver.findElement(By.id("okayBtn")).click();
 		Select user = new Select(driver.findElement(By.cssSelector("select[data-style='btn-info']")));
 		user.selectByValue("consult");

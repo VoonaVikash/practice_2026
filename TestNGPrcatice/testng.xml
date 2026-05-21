@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GDS">
+	<test name="Demo">
+		<classes>
+			<class name="TestNG.Demo"/>
+		</classes>
+	</test>
+  <test name="Forms">
+    <classes>
+      <class name="Components.Dropdown">
+      	<methods>
+      		<exclude name="mobile.*"/>
+      	</methods>
+      </class>
+      <class name="Components.Checkbox"/>
+    </classes>
+  </test>
+  <test name="Actions">
+  	<classes>
+  	  <class name="Components.Buttons">
+  	  	<methods>
+  	  		<include name="design"/>
+  	  		<include name="functionality"/>
+  	  	</methods>
+  	  </class>
+      <class name="Components.FAB"/>
+  	</classes>
+  </test>
+  <test name="Patterns">
+  <packages>
+  	<package name="Patterns"></package>
+  </packages>
+  </test>
+</suite>

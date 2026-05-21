@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="2" total="5" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-21T14:59:16 IST" name="Suite" finished-at="2026-05-21T14:59:55 IST" duration-ms="38370">
+    <groups>
+      <group name="ErrorValidation">
+        <method signature="e2eCartItemsErrorValidationTest.loginErrorValidation()[pri:0, instance:e2eshopping.tests.e2eCartItemsErrorValidationTest@38425407]" name="loginErrorValidation" class="e2eshopping.tests.e2eCartItemsErrorValidationTest"/>
+        <method signature="e2eCartItemsErrorValidationTest.productErrorValidation()[pri:0, instance:e2eshopping.tests.e2eCartItemsErrorValidationTest@38425407]" name="productErrorValidation" class="e2eshopping.tests.e2eCartItemsErrorValidationTest"/>
+      </group> <!-- ErrorValidation -->
+    </groups>
+    <test started-at="2026-05-21T14:59:16 IST" name="Submit Order" finished-at="2026-05-21T14:59:16 IST" duration-ms="11">
+    </test> <!-- Submit Order -->
+    <test started-at="2026-05-21T14:59:16 IST" name="Error Validations" finished-at="2026-05-21T14:59:55 IST" duration-ms="38370">
+      <class name="e2eshopping.tests.e2eCartItemsErrorValidationTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:e2eshopping.tests.e2eCartItemsErrorValidationTest@38425407]" started-at="2026-05-21T14:59:16 IST" name="launchApp" finished-at="2026-05-21T14:59:28 IST" duration-ms="11129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:e2eshopping.tests.e2eCartItemsErrorValidationTest@38425407]" started-at="2026-05-21T14:59:28 IST" name="loginErrorValidation" finished-at="2026-05-21T14:59:29 IST" duration-ms="1102" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at e2eshopping.tests.e2eCartItemsErrorValidationTest.loginErrorValidation(e2eCartItemsErrorValidationTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eshopping.tests.e2eCartItemsErrorValidationTest@38425407]" started-at="2026-05-21T14:59:29 IST" name="tearDown" finished-at="2026-05-21T14:59:32 IST" duration-ms="3681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:e2eshopping.tests.e2eCartItemsErrorValidationTest@38425407]" started-at="2026-05-21T14:59:32 IST" name="launchApp" finished-at="2026-05-21T14:59:37 IST" duration-ms="4480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:e2eshopping.tests.e2eCartItemsErrorValidationTest@38425407]" started-at="2026-05-21T14:59:37 IST" name="loginErrorValidation" finished-at="2026-05-21T14:59:38 IST" duration-ms="1433" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at e2eshopping.tests.e2eCartItemsErrorValidationTest.loginErrorValidation(e2eCartItemsErrorValidationTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eshopping.tests.e2eCartItemsErrorValidationTest@38425407]" started-at="2026-05-21T14:59:38 IST" name="tearDown" finished-at="2026-05-21T14:59:42 IST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:e2eshopping.tests.e2eCartItemsErrorValidationTest@38425407]" started-at="2026-05-21T14:59:42 IST" name="launchApp" finished-at="2026-05-21T14:59:46 IST" duration-ms="4413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="productErrorValidation()[pri:0, instance:e2eshopping.tests.e2eCartItemsErrorValidationTest@38425407]" started-at="2026-05-21T14:59:46 IST" name="productErrorValidation" finished-at="2026-05-21T14:59:50 IST" duration-ms="4293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:e2eshopping.tests.e2eCartItemsErrorValidationTest@38425407]" started-at="2026-05-21T14:59:50 IST" name="tearDown" finished-at="2026-05-21T14:59:55 IST" duration-ms="4478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- e2eshopping.tests.e2eCartItemsErrorValidationTest -->
+    </test> <!-- Error Validations -->
+  </suite> <!-- Suite -->
+</testng-results>

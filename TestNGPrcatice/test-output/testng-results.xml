@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="19" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-21T12:27:01 IST" name="GDS" finished-at="2026-05-21T12:27:01 IST" duration-ms="169">
+    <groups>
+      <group name="regression">
+        <method signature="Checkbox.functionality(java.lang.String)[pri:0, instance:Components.Checkbox@77888435]" name="functionality" class="Components.Checkbox"/>
+        <method signature="Dropdown.functionality()[pri:0, instance:Components.Dropdown@5b7a5baa]" name="functionality" class="Components.Dropdown"/>
+        <method signature="Buttons.functionality(java.lang.String,java.lang.String)[pri:0, instance:Components.Buttons@247bddad]" name="functionality" class="Components.Buttons"/>
+        <method signature="FAB.functionality()[pri:0, instance:Components.FAB@d35dea7]" name="functionality" class="Components.FAB"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Checkbox.functionality(java.lang.String)[pri:0, instance:Components.Checkbox@77888435]" name="functionality" class="Components.Checkbox"/>
+        <method signature="Dropdown.functionality()[pri:0, instance:Components.Dropdown@5b7a5baa]" name="functionality" class="Components.Dropdown"/>
+        <method signature="Buttons.functionality(java.lang.String,java.lang.String)[pri:0, instance:Components.Buttons@247bddad]" name="functionality" class="Components.Buttons"/>
+        <method signature="FAB.functionality()[pri:0, instance:Components.FAB@d35dea7]" name="functionality" class="Components.FAB"/>
+        <method signature="Dashboard.functionality()[pri:0, instance:Patterns.Dashboard@609cd4d8]" name="functionality" class="Patterns.Dashboard"/>
+        <method signature="HeadingText.functionality()[pri:0, instance:Patterns.HeadingText@17f7cd29]" name="functionality" class="Patterns.HeadingText"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-05-21T12:27:01 IST" name="Forms" finished-at="2026-05-21T12:27:01 IST" duration-ms="64">
+      <class name="Components.Checkbox">
+        <test-method signature="functionality(java.lang.String)[pri:0, instance:Components.Checkbox@77888435]" started-at="2026-05-21T12:27:01 IST" name="functionality" finished-at="2026-05-21T12:27:01 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gdsuat/forms]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionality -->
+      </class> <!-- Components.Checkbox -->
+      <class name="Components.Dropdown">
+        <test-method signature="functionality()[pri:0, instance:Components.Dropdown@5b7a5baa]" started-at="2026-05-21T12:27:01 IST" name="functionality" finished-at="2026-05-21T12:27:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionality -->
+      </class> <!-- Components.Dropdown -->
+    </test> <!-- Forms -->
+    <test started-at="2026-05-21T12:27:01 IST" name="Actions" finished-at="2026-05-21T12:27:01 IST" duration-ms="10">
+      <class name="Components.Buttons">
+        <test-method signature="functionality(java.lang.String,java.lang.String)[pri:0, instance:Components.Buttons@247bddad]" started-at="2026-05-21T12:27:01 IST" name="functionality" finished-at="2026-05-21T12:27:01 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gdsuat/actions]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vvoona1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionality -->
+      </class> <!-- Components.Buttons -->
+      <class name="Components.FAB">
+        <test-method signature="functionality()[pri:0, instance:Components.FAB@d35dea7]" started-at="2026-05-21T12:27:01 IST" name="functionality" finished-at="2026-05-21T12:27:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionality -->
+      </class> <!-- Components.FAB -->
+    </test> <!-- Actions -->
+    <test started-at="2026-05-21T12:27:01 IST" name="Patterns" finished-at="2026-05-21T12:27:01 IST" duration-ms="22">
+      <class name="Patterns.HeadingText">
+        <test-method signature="design()[pri:0, instance:Patterns.HeadingText@17f7cd29]" started-at="2026-05-21T12:27:01 IST" name="design" finished-at="2026-05-21T12:27:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- design -->
+        <test-method signature="functionality()[pri:0, instance:Patterns.HeadingText@17f7cd29]" started-at="2026-05-21T12:27:01 IST" name="functionality" finished-at="2026-05-21T12:27:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionality -->
+        <test-method signature="mobile()[pri:0, instance:Patterns.HeadingText@17f7cd29]" started-at="2026-05-21T12:27:01 IST" name="mobile" finished-at="2026-05-21T12:27:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile -->
+      </class> <!-- Patterns.HeadingText -->
+      <class name="Patterns.Dashboard">
+        <test-method signature="design()[pri:0, instance:Patterns.Dashboard@609cd4d8]" started-at="2026-05-21T12:27:01 IST" name="design" finished-at="2026-05-21T12:27:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- design -->
+        <test-method signature="functionality()[pri:0, instance:Patterns.Dashboard@609cd4d8]" started-at="2026-05-21T12:27:01 IST" name="functionality" finished-at="2026-05-21T12:27:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionality -->
+        <test-method signature="mobile(java.lang.String)[pri:0, instance:Patterns.Dashboard@609cd4d8]" started-at="2026-05-21T12:27:01 IST" name="mobile" finished-at="2026-05-21T12:27:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gdsuat/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile -->
+      </class> <!-- Patterns.Dashboard -->
+    </test> <!-- Patterns -->
+  </suite> <!-- GDS -->
+</testng-results>
