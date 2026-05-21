@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GDS]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Forms(failed)">
+    <classes>
+      <class name="Components.Checkbox">
+        <methods>
+          <include name="functionality"/>
+          <include name="design"/>
+        </methods>
+      </class> <!-- Components.Checkbox -->
+    </classes>
+  </test> <!-- Forms(failed) -->
+  <test thread-count="5" name="Actions(failed)">
+    <classes>
+      <class name="Components.Buttons">
+        <methods>
+          <include name="navButton"/>
+          <include name="docSiteC"/>
+          <include name="navAllCom"/>
+          <include name="functionality"/>
+          <include name="docSiteO"/>
+        </methods>
+      </class> <!-- Components.Buttons -->
+    </classes>
+  </test> <!-- Actions(failed) -->
+  <test thread-count="5" name="Patterns(failed)">
+    <classes>
+      <class name="Patterns.Dashboard">
+        <methods>
+          <include name="mobile"/>
+        </methods>
+      </class> <!-- Patterns.Dashboard -->
+    </classes>
+  </test> <!-- Patterns(failed) -->
+</suite> <!-- Failed suite [GDS] -->

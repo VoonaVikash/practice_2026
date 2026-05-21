@@ -37,7 +37,7 @@ public class DateSelection {
 //			System.out.println(fullDate[i]+" "+selectedDate.get(i).getAttribute("value"));
 			Assert.assertEquals(fullDate[i], selectedDate.get(i).getAttribute("value"));
 		}
-		driver.close();
+		driver.quit();
 	}
 
 }
